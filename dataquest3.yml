@@ -1,0 +1,19 @@
+name: dataquest3
+channels:
+  - conda-forge
+  - fastai
+  - pytorch
+  - defaults
+dependencies:
+  - numpy
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - psycopg2
+  - sqlite
+  - seaborn
+  - python=3.7
+  - basemap
+  - basemap-data-hires
+prefix: ./envs/
